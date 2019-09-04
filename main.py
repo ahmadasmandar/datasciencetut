@@ -6,7 +6,10 @@ and is being used to learn data-science with Python
 import pandas as pd
 from pandas import DataFrame as df
 import matplotlib.pyplot as plt
-from sklearn
+
+# add the linear Regression Model to the Program
+# install the new sklearn lib
+from sklearn.linear_model import LinearRegression as lg
 
 # read csv file using pandas
 
