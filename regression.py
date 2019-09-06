@@ -28,7 +28,9 @@ lg.fit(X,y)
 print(lg.coef_ ) # theta 1
 inter=lg.intercept_ #theta 0
 print(inter)
-
+#R squred
+rsqr=lg.score(X, y)
+print(rsqr)
 ######### use matplot lib to visualise our data
 
 # set the figure size
